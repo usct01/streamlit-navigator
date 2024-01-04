@@ -3,8 +3,8 @@ import folium
 import osmnx
 import networkx as nx
 import leafmap.foliumap as leafmap
-
-from apps.navigator import (get_location_from_address,
+from apps import navigator
+from navigator import (get_location_from_address,
                             get_graph,
                             get_graph_from_mode,
                             find_shortest_path) 
